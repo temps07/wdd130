@@ -1,6 +1,10 @@
+:root {
+--main-color: steelblue;
+--padding: 10px;
+}
 nav {
-    background-color: steelblue;
-    padding: 10px;
+    background-color: var(--main-color);
+    padding: var(--padding);
 }
 nav a {
     color: white;
@@ -8,17 +12,17 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: steelblue;
+    color: var(--main-color);
 }
  main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--main-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 10px;
+    padding: var(--padding);
 }
 main {
     max-width: 840px;
