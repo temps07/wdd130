@@ -1,0 +1,54 @@
+:root {
+    --font-weight: 400;
+    --headings-color: rgb(62, 62, 202);
+}
+nav a {
+    color: black;
+    display: inline;
+}
+body {    
+    font-weight: var(--font-weight); 
+}
+main h2 { 
+    font-family: "Archivo Black", system-ui;
+    font-weight: var(--font-weight);
+    color: var(--headings-color);
+    text-shadow: 3px 3px 3px rgba(128, 128, 128, 0.336);
+}
+p {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+}
+.sociallinks a {
+    display: inline;
+}
+.heroimg {
+    display: inline;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+h1 {
+    position: absolute;
+    bottom: 8em;
+    right: 5px;
+    z-index: 1;
+    text-align: center;
+    background: rgba(63, 46, 46, 0.699);
+    color: white;
+    width: 100%;
+    
+    
+}
+.inside img {
+    width: 10em;
+    float: right;
+}
+.inside p {
+    color: white;
+}
+.inside {
+    background: rgba(46, 46, 209, 0.342);
+    position: absolute;
+    top: 20rem;
+}
