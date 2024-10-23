@@ -125,6 +125,11 @@ p {
     font-family: var(--font-family);
     font-size: var(--font-size);
 }
+h3 {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+}
+}
 </style>
     </head>
     <body>
@@ -176,12 +181,19 @@ p {
                 </fieldset>
                 <fieldset>
                     <legend>Questions</legend>
-                        <label for="select">Please make a selection</label>
-                        <select name="select" id="select">
-                        <option value="general inquiry">General Inquiry</option>
-                        <option value="reservation question">Reservation Question</option>
-                        <option value="website suggestion">Website Suggestion</option>
-                        </select>
+                        <h3>Please make a selection</h3>
+                        <div>
+                            <label for="general inquiry">General Inquiry</label>
+                            <input type="radio" name="please make a selection" id="general inquiry">
+                        </div>
+                        <div>
+                            <label for="reservation question">Reservation Question</label>
+                            <input type="radio" name="please make a selection" id="reservation question">
+                        </div>
+                        <div>
+                            <label for="website suggestion">Website Suggestion</label>
+                            <input type="radio" name="please make a selection" id="website suggestion">
+                        </div>
                     <div>
                         <textarea name="feedback" id="feedback" rows="2" placeholder="Please indicate your concern here"></textarea>
                     </div>
