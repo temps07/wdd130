@@ -1,0 +1,96 @@
+:root {
+    --font-weight: 400;
+    --headings-color: rgb(62, 62, 202);
+}
+nav {
+    display: flex;
+}
+nav a {
+    color: black;
+    padding: 20px;
+    margin-top: 45px;
+}
+nav a:hover {
+    color: tomato;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: rgba(12, 126, 202, 0.377);
+}
+body {    
+    font-weight: var(--font-weight); 
+}
+main h2 { 
+    font-family: "Archivo Black", system-ui;
+    font-weight: var(--font-weight);
+    color: var(--headings-color);
+    text-shadow: 3px 3px 3px rgba(128, 128, 128, 0.336);
+}
+p {
+    font-family: "Roboto", system-ui;
+}
+.heroimg {
+    display: inline;
+    width: 100%;
+    height: auto;
+
+}
+h1 {
+    position: absolute;
+    bottom: 10em;
+    right: 40%;
+    z-index: 1;
+    text-align: center;
+    background: rgba(63, 46, 46, 0.699);
+    color: white;
+    width: 300px;
+}
+.inside img {
+    width: 10em;
+    float: right;
+}
+.inside p {
+    color: white;
+}
+.inside {
+    background: rgba(46, 46, 209, 0.342);
+    position: absolute;
+    top: 25rem;
+}
+figure {
+    border: solid rgba(48, 36, 36, 0.555);
+    width: 597px;
+    
+}
+figcaption {
+    background-color: rgba(21, 21, 43, 0.938);
+    color: white;
+    font-size: 20px;
+    font-family: roboto;
+    padding: 5px;
+    margin: 2px;
+}
+footer {
+    display: flex;
+    background-color: rgba(12, 126, 202, 0.377);
+    justify-content: center;
+    align-items: center;
+}
+.fig {
+    display: flex;
+    flex-wrap: wrap;
+}
+.fig img {
+    width: 17rem;
+}
+.grid {
+    display: grid;
+}
+.grid p {
+    grid-column: 2/3;
+}
+.grid img {
+    grid-row: 1;
+    width: 15rem;
+}
